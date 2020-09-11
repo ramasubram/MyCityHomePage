@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+#header {
+    padding: 1 5rem 0 0;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+#landing {
+    padding: 0 0 0 5rem;
+    background: #fff;
+}
+
+body {
+    max-width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+main {
+    max-width: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+h3 {
+    color: white;
+    background-color: firebrick;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0mm;
+}
+p.whiteText {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 0;
+    color: #333;
+}
+
+ul.top {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 2rem 0 0;
+    overflow: hidden;
+    background-color:white;
+    vertical-align: middle;
+}
+  
+li.top {
+    float: right;
+}
+
+li.top a {
+    display: inline;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li.top a:hover {
+    background-color: grey;
+}
+.searchContainer {
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url(strandpromenad-1-anna-alexander-olsson-1800x350-1-1800x350.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    font-size: 1.7rem;
+    position: relative;
+    border: 1px solid black; 
+}
+.galleryContainer {
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 800px;
+    font-size: 1.7rem;
+    position: relative;
+    border: 1px solid black; 
+}
+.imageContainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 1px solid black;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    height: 260px;
+    width: 350px;
+}
+.listdataContainer {
+    border: 1px solid black;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    height: 300;
+    width: 525px;
+}
+.pinkContainer {
+    text-align: left;
+    background-color: #cb0050;
+    color: white;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    text-align: left;
+ } 
+ .whiteContainer {
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    text-align: left;
+ } 
+ .dataContainer {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    height: 300;
+    width: 525px;
+}
+.dataSmallContainer {
+    border: 1px solid grey;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    height: 250;
+    width: 280px;
+}
+.caption {
+    display: block;
+}
+span::before {
+    width: 0.4mm;
+    height: 0.4mm;
+    content: "➔";
+}
+.verticalCenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+a {
+    text-decoration: none;
+}
+ul.tableList {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color:white;
+    color: black;
+    text-decoration: none;
+}
+li.tableList {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 7px 3px 7px 0;
+    list-style-position: outside;
+    text-decoration: none;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black; 
+    border-radius: 2px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+  }
+  
+.btnPlain {
+    color: black;
+    border: none;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+}
+.btnSearch {
+    color: white;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+ul.main {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 10 0;
+    overflow: hidden;
+    background-color:firebrick;
+    vertical-align: middle;
+}
+
+li.main {
+    position: relative;
+    float: left;
+}
+
+li.main a {
+    display: inline;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li.main a:hover {
+    background-color: grey;
+}
