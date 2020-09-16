@@ -1,178 +1,225 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+s@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 #header {
-    padding: 1 5rem 0 0;
-    text-align: center;
     background: white;
     color: black;
+    padding: 5px 5px 0 0;
+    text-align: center;
+    float: right;
 }
-
 #landing {
     padding: 0 0 0 5rem;
     background: #fff;
 }
-
 body {
-    max-width: 100%;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
     background: #eee;
+    font-family: 'Roboto Condensed', sans-serif;
     height: auto;
-}
-
-main {
+    margin: 5px;
     max-width: 100%;
-    margin: 0;
+    padding: 5px;
 }
-
+main {
+    margin: 5px;
+    max-width: 100%;
+}
 h1 {
     font-weight: 400;
     font-size: 2.5rem;
-    text-transform: uppercase;
     margin: 0;
+    text-transform: uppercase;
 }
-
 h2 {
     font-weight: 400;
     font-size: 2rem;
-    text-transform: capitalize;
     margin: 0;
+    text-transform: capitalize;
 }
 h3 {
-    color: white;
     background-color: firebrick;
-    font-size: 1.6rem;
-    text-align: center;
+    border: 0mm;
+    color: white;
+    font-size: 1.3rem;
+    padding: 2mm;
+    text-align: left;
+}
+.caption {
+    background-color: firebrick;
+    border: 0mm;
+    color: white;
     padding: 0mm;
+    text-align: left;
+}
+.redText {
+    color: #cb0050;
+    display: block;
+    padding: 2mm;
+    text-align: left;
+    text-decoration: none;
 }
 p.whiteText {
     color: white;
 }
-
-footer {
-    text-align: center;
-    padding: 2rem 1rem;
-    margin: 0;
-    color: #333;
+a {
+    text-decoration: none;
 }
-
+i {
+    font-size: 2rem;
+}
+li {
+    list-style-type: none;
+}
+footer {
+    color: #333;
+    margin: 0;
+    padding: 2rem 1rem;
+}
 ul.top {
+    background-color:white;
     float: right;
     list-style-type: none;
     margin: 0;
-    padding: 0 2rem 0 0;
     overflow: hidden;
-    background-color:white;
+    padding: 0 2rem 0 0;
     vertical-align: middle;
 }
-  
 li.top {
+    border: 1px solid lightgrey; 
     float: right;
 }
-
 li.top a {
-    display: inline;
     color: black;
+    display: inline;
+    padding: 10px;
     text-align: center;
     vertical-align: middle;
-    padding: 10px;
-    text-decoration: none;
 }
-
 li.top a:hover {
     background-color: grey;
 }
 .searchContainer {
-    align-content: center;
-    text-align: center;
-    vertical-align: middle;
     background-image: url(strandpromenad-1-anna-alexander-olsson-1800x350-1-1800x350.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid black;
     height: 300px;
-    font-size: 1.7rem;
-    position: relative;
+    vertical-align: middle;
+}
+.btnSearch {
+    color: white;
+    background-color: #ec6701;
+    border: 1px solid #ec6701;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 14px;
+}
+input[type=text] {
     border: 1px solid black; 
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 8px 0;
+    padding: 10px 10px;
+}
+.searchContainer, .btnSearch {
+    font-size: 1rem;
 }
 .galleryContainer {
     align-content: center;
+    background-repeat: no-repeat;
+    border: 1px solid black; 
+    color: white;
+    flex-wrap: wrap;
+    font-size: 1.7rem;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
     text-align: center;
     vertical-align: middle;
-    background-repeat: no-repeat;
-    height: auto;
-    width: 800px;
-    font-size: 1.7rem;
-    position: relative;
-    border: 1px solid black; 
+    width: 900px;
+}
+.galleryContainer .centent {
+    background: #cb0050, 0.5;
+    bottom: 0;
+    color :white;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
 }
 .imageContainer {
-    background-repeat: no-repeat;
+    background-color: white;
     background-size: cover;
-    position: relative;
     border: 1px solid black;
-    vertical-align: top;
+    position: relative;
     display: inline-block;
+    height: 275px;
+    margin: 5mm;
     text-align: left;
-    height: 260px;
-    width: 350px;
+    vertical-align: top;
+    width: 320px;
 }
+
 .listdataContainer {
     border: 1px solid black;
-    vertical-align: top;
     display: inline-block;
-    text-align: left;
     height: 300;
-    width: 525px;
+    text-align: left;
+    vertical-align: top;
+    width: 510px;
 }
 .pinkContainer {
-    text-align: left;
     background-color: #cb0050;
     color: white;
     font-size: 1rem;
     flex-wrap: wrap;
     text-align: left;
- } 
- .whiteContainer {
-    text-align: left;
+    width: 1030px;
+} 
+.whiteContainer {
     background-color: white;
     color: black;
-    font-size: 1rem;
     flex-wrap: wrap;
     text-align: left;
- } 
- .dataContainer {
-    vertical-align: top;
+} 
+.dataContainer {
     display: inline-block;
-    text-align: left;
     height: 300;
-    width: 525px;
+    text-align: left;
+    vertical-align: top;
+    width: 500px;
+}
+.footerDataContainer {
+    display: inline-block;
+    height: 300;
+    text-align: left;
+    vertical-align: top;
+    width: 340px;
 }
 .dataSmallContainer {
     border: 1px solid grey;
-    vertical-align: top;
     display: inline-block;
-    text-align: left;
     height: 250;
-    width: 280px;
+    text-align: left;
+    vertical-align: top;
+    width: 250px;
 }
-.caption {
-    display: block;
-}
+
+/*
 span::before {
     width: 0.4mm;
     height: 0.4mm;
     content: "➔";
 }
+*/
+
 .verticalCenter {
-    margin: 0;
-    position: absolute;
-    top: 50%;
     left: 30%;
+    margin: 0;
+    position: relative;
+    top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-}
-a {
-    text-decoration: none;
 }
 ul.tableList {
     list-style-type: none;
@@ -190,17 +237,6 @@ li.tableList {
     list-style-position: outside;
     text-decoration: none;
 }
-
-input[type=text] {
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid black; 
-    border-radius: 2px;
-    font-size: 1.2rem;
-    box-sizing: border-box;
-  }
-  
 .btnPlain {
     color: black;
     border: none;
@@ -211,40 +247,53 @@ input[type=text] {
     display: inline-block;
     float: right;
 }
-.btnSearch {
-    color: white;
-    border: none;
-    background-color: rgb(255, 0, 0);
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-}
-
-ul.main {
-    float: left;
-    list-style-type: none;
-    margin: 0;
-    padding: 10 0;
-    overflow: hidden;
+ul.mainMenu {
+    align-content: center;
     background-color:firebrick;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    height: 100%;
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
     vertical-align: middle;
+    width: 98%;
 }
-
-li.main {
+li.mainMenu {
     position: relative;
     float: left;
+    padding: 5px;
 }
-
-li.main a {
-    display: inline;
+li.mainMenu a {
+    align-items: center;
     color: white;
+    display: flex;
+    flex: 1;
+    padding: 5px;
     text-align: center;
-    vertical-align: middle;
-    padding: 10px;
     text-decoration: none;
+    vertical-align: middle;
+    width: auto;
 }
-
-li.main a:hover {
+li.mainMenu a:hover {
     background-color: grey;
+}
+table, td {
+    border: 1px solid lightgray;
+    text-align: left;
+    background-color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    padding: 10px;
+}
+.greyBox {
+    background-color: rgba(0,0,0,.05);
+    border: 1px solid white;
+    margin: 1mm;
 }

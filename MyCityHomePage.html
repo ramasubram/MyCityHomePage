@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
         <title>Helsingborg City Home Page</title>
     </head>
@@ -25,22 +26,22 @@
 
              <!-- Main menu -->
             <div h2>
-                <ul class="main">
-                    <li class="main"><a href="">Work</a></li>
-                    <li class="main"><a href="">Living, building and environment</a></li>
-                    <li class="main"><a href="">Preschool and education</a></li>
-                    <li class="main"><a href="">Municipality and politics</a></li>
-                    <li class="main"><a href="">Care and support</a></li>
-                    <li class="main"><a href="">Traffic and urban planning</a></li>
-                    <li class="main"><a href="">Experience and do</a></li>
+                <ul class="mainMenu">
+                    <li class="mainMenu"><a href="">Work</a></li>
+                    <li class="mainMenu"><a href="">Living, building and environment</a></li>
+                    <li class="mainMenu"><a href="">Preschool and education</a></li>
+                    <li class="mainMenu"><a href="">Municipality and politics</a></li>
+                    <li class="mainMenu"><a href="">Care and support</a></li>
+                    <li class="mainMenu"><a href="">Traffic and urban planning</a></li>
+                    <li class="mainMenu"><a href="">Experience and do</a></li>
                 </ul>
             </div>
-            <br>
+            <br><br><br><br>
              <!-- Search Info -->
             <div class="searchContainer">
                 <div class="verticalCenter">
+                    <span class="caption">Search Helsingborg.se</span>
                     <form>
-                        <h3>Search Helsingborg.se</h3>
                         <input type="text" class="inputSearchValue" value="What are you looking for?" > 
                         <button class="btnSearch">Search</button>
                     </form>
@@ -49,13 +50,13 @@
             <br>
              <!-- Corona Info -->
             <div class="imageContainer">
-                <img src="image1.jpg" alt="Corona Information" width="350" height="200"/>
-                <span class="caption"> <a href="" target="_blank">Important information about the coronavirus</a></span>
+                <img src="image1.jpg" alt="Corona Information" width="320" height="200"/>
+                <span class="redText"> <a href="" target="_blank">Important information about the coronavirus</a></span>
             </div>
              <!-- Action Helsingborg -->
             <div class="imageContainer">
-                <img src="image2.png" alt="Action Helsingborg" width="350" height="200">
-                <span class="caption"> <a href="" target="_blank"> Action Helsingborg - support your local business community or get support yourself</a></span>
+                <img src="image2.png" alt="Action Helsingborg" width="320" height="200">
+                <span class="redText"> <a href="" target="_blank"> Action Helsingborg - support your local business community or get support yourself</a></span>
             </div>
              <!-- Common Questions -->
             <div class="imageContainer">
@@ -69,7 +70,7 @@
                 </ul>
             </div>
 
-             <!-- Quick access links -->
+            <!-- Quick access links -->
             <div class="listdataContainer">
                 <h3>Shortcuts</h3>
                 <ul class="tableList">
@@ -83,15 +84,47 @@
                     <li class="tableList"><a href="">Municipal map</a></li>
                 </ul>
             </div>
+             <!-- Events -->
+            <div class="listdataContainer">
+                <h3>Events</h3>
+                <table>
+                    <tr>
+                        <td>Sep 18  </td>
+                        <td>➔ <a href="">Feel good activity for you as a relative</a></td>
+                    </tr>
+                    <tr>
+                        <td>Sep 18  </td>
+                        <td>➔ <a href="">Sagoyoga</a></td>
+                    </tr>
+                    <tr>
+                        <td>Sep 17  </td>
+                        <td>➔ <a href="">Stickcafe</a></td>
+                    </tr>
+                    <tr>
+                        <td>Sep 17  </td>
+                        <td>➔ <a href="">CANCELED - Tuesday canasta</a></td>
+                    </tr>
+                    <tr>
+                        <td>Sep 16  </td>
+                        <td>➔ <a href="">IT-Kojan</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">1 </a><a href="">2 </a><a href="">>></a></td>
+                    </tr>
+                </table>
+            </div>
+
+
              <!-- Activities gallery -->
             <div class="galleryContainer">
                 <h3>Five tips on things to do outdoors in Helsingborg</h3>
-                <img src="image3.png" alt="outdoor gym"/>
-                <p class="whiteText">
+                <img src="image3.png" alt="outdoor gym" width="100%;">
+                <div class="content">
                     <span class="caption"> Lift scrap in the open air</span>
-                    <span>Around Helsingborg there are 20 outdoor gyms that you can use for free around the clock. You train based on your own conditions and with your own body weight. Here you will find a map of all outdoor gyms</span>
-                </p>
+                    <span class="caption">Around Helsingborg there are 20 outdoor gyms that you can use for free around the clock. You train based on your own conditions and with your own body weight. Here you will find a map of all outdoor gyms</span>
+                </div>
             </div>
+
             <br>
              <!-- News -->
             <div class="listdataContainer">
@@ -173,13 +206,39 @@
         <footer>
             <div>
                 <img src="HBG-city.jpg" alt="Helsingborg Emblem" width="200" height="100">
-                <p>Postal address</p>
-                <p>Name of the business</p>
-                <p>251 89 Helsingborg</p>
-                <p>Organization number: 212000-1157</p>
                 <br>
-                <p>About the site</p>
-                <p>This is how the city of Helsingborg processes your personal data</p>
+                <div class="footerDataContainer">
+                    <ul>
+                        <li>Postal address</li>
+                        <li>Name of the business</li>
+                        <li>251 89 Helsingborg</li>
+                        <li>Organization number: 212000-1157</li>
+                    </ul>
+                </div>
+                <div class="footerDataContainer">
+                    <p>About the site</p>
+                    <p>This is how the city of Helsingborg processes your personal data</p>
+                </div>
+                <div class="footerDataContainer">
+                    <ul>
+                        <li class="greyBox">Larm</li>
+                        <li class="greyBox">Translate</li>
+                        <li class="greyBox">Press</li>
+                    </ul>
+                </div>
+                <div class="footerDataContainer">
+                    <a href="https://www.facebook.com/Helsingborgsstad" target="_blank">
+                    <i class="fa fa-facebook-square fa-2x"></i></a>
+
+                    <a href="https://twitter.com/hbgstad" target="_blank">
+                    <i class="fa fa-twitter-square fa-2x"></i></a>
+                    
+                    <a href="https://www.linkedin.com/company/helsingborg/" target="_blank">
+                    <i class="fa fa-linkedin-square fa-2x"></i></a>
+
+                    <a href="https://www.instagram.com/helsingborgsstad/" target="_blank">
+                    <i class="fa fa-instagram fa-2x"></i></a>
+                </div>
             </div>
         </footer>
         <script src="app.js"> </script>
